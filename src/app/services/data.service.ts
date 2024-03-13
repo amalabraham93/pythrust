@@ -14,7 +14,7 @@ const httpOptions = {
 })
 export class DataService {
 
-  private apiUrl = 'http://localhost:3000/feedbacks'
+  private apiUrl =  "https://my-json-server.typicode.com/amalabraham93/pythrust/feedbacks"
 
 
   constructor(private http:HttpClient) { }
